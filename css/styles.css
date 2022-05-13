@@ -374,6 +374,10 @@ address {
   color: var(--main-text-color);
 }
 
+.team-name {
+  margin-bottom: 10px;
+}
+
 .team-list .text {
   margin-top: 10px;
   font-size: 16px;
@@ -382,9 +386,47 @@ address {
   letter-spacing: 0.03em;
 }
 
+.text {
+  margin-bottom: 16px;
+}
+
 .team-cards {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: var(--accent-secondary-text-color);
+  color: #afb1b8;
+
+  border-radius: 50%;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--accent-text-color);
+  color: var(--accent-secondary-text-color);
+}
+
+.item-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socials-icon {
+  fill: currentColor;
 }
 
 /* Footer */
