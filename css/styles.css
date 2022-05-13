@@ -291,6 +291,21 @@ address {
   color: var(--secondary-text-color);
 }
 
+.peculiarities-icons {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  text-align: center;
+
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+}
+
+.advantage-icons {
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+
 /* Employment */
 .work {
   padding-top: 0;
